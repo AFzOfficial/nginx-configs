@@ -70,10 +70,10 @@ server {
 server {
     listen [::]:443 ssl ipv6only=on;
     listen 443 ssl;
-    ssl_certificate /root/ssl.pem;
-    ssl_certificate_key /root/ssl.key;
+    ssl_certificate /path/ssl.pem;
+    ssl_certificate_key /path/ssl.key;
 
-    root /var/www/blog/dist;
+    root /var/www/html;
     index index.html index.htm;
 
     server_name domain.com;
