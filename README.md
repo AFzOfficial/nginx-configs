@@ -14,6 +14,7 @@ server {
 	ssl_certificate        /path/ssl.pem;
 	ssl_certificate_key    /path/ssl.key;
 
+	index index.html index.htm;
 	root /var/www/html;
 
 	server_name domain.com;
